@@ -10,7 +10,7 @@ This project is a food recipes website that can be ran using using XAMPP. It all
 - **Recipe Search:** Visitors can search for recipes based on ingredients, cuisine, or meal type.
 - **Responsive Design:** The website is designed to work seamlessly on various devices.
 
-- **NB** SOME FEATURE MAY NOT WORK DUE TO THE FACT THAT HIS PROJECT IS STILL ONGOING!!! 
+- **NB** SOME FEATURE MAY NOT WORK DUE TO THE FACT THAT THIS PROJECT IS STILL ONGOING!!! 
 
 ## Technologies Used
 

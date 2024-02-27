@@ -1,0 +1,1035 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+p {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+
+
+/*
+=================================================================================
+Home Second Sections
+=================================================================================
+*/
+
+
+.scroll-reveal span{
+    color: hsla(0, 43%, 19%, 0.2);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, rgb(29, 63, 63), rgb(29, 63, 63));
+    animation: scroll-reveal 1.3s linear forwards;
+    animation-timeline: view();
+}
+
+
+.scroll-reveal h2 span{
+    animation-range-start: cover 20vh;
+    animation-range-end: cover 30vh;
+}
+
+.scroll-reveal p span{
+    animation-range-start: cover 23.5vh;
+    animation-range-end: cover 50vh;
+}
+
+@keyframes scroll-reveal {
+    to {background-size: 100% 100%;}
+}
+
+
+#parent {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#parent img{
+    position: absolute;
+    width: 100px; /* Adjusted width */
+    height: 303px;
+    left: 50px;
+    top: 19%;
+    z-index: 30; /* Adjusted z-index */
+}
+
+.green1 {
+    background-color: rgb(88, 143, 143);
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    bottom: 45%;
+    right: 100px;
+    z-index: 1; /* Adjusted z-index */
+}
+
+
+.green2 {
+    background-color: rgb(29, 63, 63);
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 54%;
+    bottom: -1px;
+    right: -115px;
+    z-index: 2; /* Adjusted z-index */
+}
+
+
+#parent img:hover {
+    transform: scale(1.1); /* Adjust the scale factor for zooming in */
+}
+
+
+/*
+=================================================================================
+Home third Section
+=================================================================================
+*/
+
+
+
+.scroll-reveal2 span{
+    color: hsla(0, 43%, 19%, 0.2);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, white, white);
+    animation: scroll-reveal 1.3s linear forwards;
+    animation-timeline: view();
+}
+
+
+.scroll-reveal2 h2 span{
+    animation-range-start: cover 20vh;
+    animation-range-end: cover 30vh;
+}
+
+.scroll-reveal2 p span{
+    animation-range-start: cover 23.5vh;
+    animation-range-end: cover 50vh;
+}
+
+@keyframes scroll-reveal2 {
+    to {background-size: 100% 100%;}
+}
+
+
+#parent-b {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#parent-b img{
+    position: absolute;
+    width: 100px; /* Adjusted width */
+    height: 303px;
+    left: -25px;
+    top: 21%;
+    z-index: 35; /* Adjusted z-index */
+}
+
+.green1b {
+    background-color: rgb(88, 143, 143);
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    bottom: 43%;
+    right: 180px;
+    z-index:25; /* Adjusted z-index */
+}
+
+
+.green2b {
+    background-color: white;
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 52%;
+    bottom: -1px;
+    right: -15px;
+    z-index: 30; /* Adjusted z-index */
+}
+
+
+#parent-b img:hover {
+    transform: scale(1.1); /* Adjust the scale factor for zooming in */
+}
+  
+
+/*
+=================================================================================
+Home third Section
+=================================================================================
+*/
+
+.zoomable-div {
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.zoomable-div:hover {
+    transform: scale(1.2);
+}
+
+
+.zoomable-div:hover .recipe-links {
+    color: rgb(29, 63, 63);
+}
+
+.zoomable-div:hover .more-p {
+    color: grey;
+}
+
+.recipe-links {
+    text-decoration: none;
+    color:  silver;
+}
+
+
+/*
+=================================================================================
+Home seventh Section
+=================================================================================
+*/
+
+.dessert-text {
+    padding-bottom: 50px;
+    color: rgb(29, 63, 63);
+}
+
+.dessert-text-b {
+    padding-bottom: 50px;
+    color: silver;
+}
+
+.recipe-links {
+    text-decoration: none;
+    color:  silver;
+}
+
+/* .more-p-b {
+    color: gainsboro;
+} */
+
+.zoomable-div-b {
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.zoomable-div-b:hover {
+    transform: scale(1.2);
+}
+
+
+.zoomable-div-b:hover .recipe-links {
+    color: white;
+}
+
+.zoomable-div-b:hover .more-p-b {
+    color: silver;
+}
+
+
+
+.message-b-recipe {
+    top: 10px;
+}
+
+
+.recipe-button {
+    background-color: rgb(88, 143, 143);
+    border-radius: 15px 15px 15px 15px; 
+    padding-top: 50px;
+    top: -16px;
+    padding: 15px 20px; 
+    color: white; 
+    text-decoration: none;
+    display: inline-block; 
+}
+
+
+.recipe-button:hover {
+    background-color: rgb(29, 63, 63);
+    color: silver;
+}
+
+
+
+/*
+=================================================================================
+Recipes Link Section
+=================================================================================
+*/
+
+#recipe-span {
+    color: rgb(29, 63, 63);
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#intro-recipes {
+    font-family: "Montserrat-Bold";
+    color: rgb(29, 63, 63);
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 3;
+}
+
+
+#recipes {
+    padding: 6% 7%;
+}
+
+#cooking-instructions {
+    padding: 3% 17%;
+}
+.cooking-instructions-paragraph {
+    display: flex;
+    padding: 20px;
+    float: right;
+}
+
+.ingredients-heading {
+    padding-bottom: 20px;
+}
+.cook {
+    margin-top: 180px;
+}
+
+.recipe-imge {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+
+
+.recipe-title {
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    color: black;
+    line-height: 1.5;
+}
+
+.recipe-span {
+    color: rgb(29, 63, 63);
+}
+
+#more-recipes {
+    padding: 10% 7%;
+}
+
+.recipe {
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.recipe-list {
+    padding-top: 60px;
+}
+
+
+.recipe-link {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.5;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.recipe-link:hover {
+    color: grey;
+}
+
+
+/*=================================================================================
+Title
+=================================================================================
+*/
+
+.share {
+    padding-top: 25px;
+}
+
+#title {
+    background-color: rgb(88, 143, 143);
+    color: white;
+    text-align: left;
+    
+}
+
+.icon {
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+    transition: transform 0.3s ease, font-size 0.3s ease; /* Add transition effects for smooth movement and size change */
+}
+
+.icon:hover {
+    color: rgb(88, 143, 143);
+    transform: translateX(10px); /* Move the icon 10px towards the screen on hover */
+    font-size: 50px; /* Increase the font size on hover */
+}
+
+
+
+
+
+/*
+=================================================================================
+Containers
+=================================================================================
+*/
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.container-fluid-recipes {
+    padding: 3% 7%;
+}
+
+#blur-background::before {
+    content: "";
+    /* background: url(../images/homewallpaper.jpg) center/cover no-repeat fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+    z-index: 1; /* Place the pseudo-element behind the content */
+    
+}
+
+#blur-background {
+    position: relative;
+    color: white;
+
+}
+
+.home-text {
+    font-size: 60px;
+}
+
+
+/*
+=================================================================================
+Sections
+=================================================================================
+*/
+.colored-section {
+    background-color: rgb(49, 73, 73);
+}
+
+.first-wall-text {
+    padding: 5% 0%;
+    color: white;
+}
+
+.wall-text {
+    padding: 18% 0%;
+    color: white;
+    text-size-adjust: 20%;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.content {
+    padding-top: 142px;
+}
+
+.recipe-short-message {
+    color: white;
+}
+
+.contact-details {
+    border-radius: 10%;
+}
+
+.contact-us {
+    font-size: 100px;
+    padding-top: 150px;
+}
+
+.contact-details {
+    background-color: rgb(29, 63, 63);  
+}
+
+.details-heading {
+    color: white;
+    font-size: 25px;
+    padding: 60px 80px;
+}
+
+
+.details {
+    color: white;
+    font-size: 18px;
+    padding: 60px 80px;
+}
+
+.contact-us-icon i {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-us-icon a {
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-icon a:hover {
+    color: silver;
+}
+
+.contacts-email {
+    color: rgb(29, 63, 63);
+}
+
+.contacts-email:hover {
+    color: silver
+}
+
+/*
+=================================================================================
+Section's Wallpapers and images
+=================================================================================
+*/
+
+.dinner {
+    background: url(../images/dinnerwallpaper1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.breakfast {
+    background: url(../images/Breakfast/breakfast002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.meat {
+    background: url(../images/Meat/meat005.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lunch {
+    background: url(../images/lunchwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dessert {
+    background: url(../images/dessertwallpaper1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.healthy {
+    background: url(../images/healthywallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quick-easy {
+    background: url(../images/easywallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chicken {
+    background: url(../images/chickenwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.beef {
+    background: url(../images/t-bone.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pork {
+    background: url(../images/porkwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fish {
+    background: url(../images/fishwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lamp {
+    background: url(../images/lampwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home {
+    background: linear-gradient(rgb(78 95 81 / 90%), rgba(46, 59, 48, 0.9)) 0% 0% / cover fixed, url(../images/homewallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    background: url(../images/green.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+/*
+=================================================================================
+Features Section
+=================================================================================
+*/
+.message-recipe {
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(29, 63, 63);
+}
+
+.feature-box {
+    padding: 2.5%;
+}
+
+.feature-links {
+    text-decoration: none;
+    color: rgb(29, 63, 63);
+}
+
+.feature-links:hover {
+    color:silver;
+}
+
+.imge {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+
+/*
+=================================================================================
+New Dishes
+=================================================================================
+*/
+
+.new-dishes-text {
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    padding: 0 5%;
+    margin-bottom: 1rem;
+}
+
+.carousel-img {
+    width: 60%;
+    height: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+}
+
+.carousel-inner {
+    font-size: 1.5rem;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*
+=================================================================================
+More recipes
+=================================================================================
+*/
+
+.more-recipes-text {
+    padding-bottom: 5%;
+    color: white;
+}
+
+.more-box {
+    padding: 5%;
+}
+
+.more-links {
+    text-decoration: none;
+    color: white;
+}
+
+.more-links:hover {
+    color:silver;
+}
+
+.more-p {
+    color: gainsboro;
+}
+
+
+
+/*
+=================================================================================
+Message
+=================================================================================
+*/
+
+.msg {
+    padding: 7% 7%;
+}
+
+
+
+      
+
+
+/*
+=================================================================================
+Recipe
+=================================================================================
+*/
+
+/* Recipe Images */
+.recipe-images {
+    width: 55%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 50%;
+}
+
+.actual-recipe-paragraphs {
+    text-align: left;
+}
+
+.actual-recipe-heading {
+    padding-top: 12%;
+    text-align: left;
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+    
+}
+
+.ingredients-li {
+    font-weight: bold;
+}
+
+.ingredients li,
+.ingredients p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.aboutus {
+    color: white;
+}
+
+#row2 {
+    z-index: 2;
+}
+
+
+
+
+#prev-icon, #next-icon {
+    background-color: rgb(29, 63, 63);
+}
+
+
+.aboutus-image {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border-radius: 100%;
+}
+
+
+
+
+.aboutus-paragraph {
+    padding-top: 60px;
+}
+
+
+/*
+=================================================================================
+Footer
+=================================================================================
+*/
+
+#footer {
+    position: relative;
+    z-index: 1005;
+    background-color: rgb(49, 73, 73);
+    color: white;
+    padding: 3% 7%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center
+}
+
+
+.footer-brand {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.footer-brand:hover{
+    color: silver;
+    text-decoration: none;
+}
+
+.footer-share {
+    padding-top: 50px;
+}
+
+
+
+/* .icon {
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+    transition: transform 0.3s ease, font-size 0.3s ease; /* Add transition effects for smooth movement and size change */
+
+.footer-icon:hover {
+    color: rgb(88, 143, 143);
+    transform: translateX(10px); /* Move the icon 10px towards the screen on hover */
+    font-size: 30px; /* Increase the font size on hover */
+}
+
+.footer-icon {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+    transition: transform 0.3s ease, font-size 0.3s ease; /* Add transition effects for smooth movement and size change */
+}
+
+.footer-imge {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10%;
+}
+
+.footer-links .footer-logo {
+    display: flex; 
+    justify-content: space-between;
+    }
+
+  
+.footer-allrecipes,
+.footer-nav {
+width: 48%; 
+}
+
+
+.footer-allrecipes {
+margin-right: 50px; /* Add space below .footer-allrecipes */
+}
+
+
+.footer-nav {
+    margin-top: 10px; /* Add space above .footer-nav */
+}
+
+.footer-recipe-link,
+.footer-recipe-link1 {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.2;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.footer-recipe-link1 {
+    font-weight: bold;
+    }
+
+.footer-recipe-link:hover {
+    color: grey;
+    border-bottom: 1px solid grey; 
+}
+
+.footer-recipe-link1:hover {
+    color: grey;
+    border-bottom: 1px solid grey; 
+}
+
+.footer-links .recipe-list {
+    display: flex; /* Use flexbox to make them appear side by side */
+    justify-content: space-between; /* Add space between the two divs */
+    }
+
+
+@media (max-width: 1050px) {
+    /* 
+    =================================================================================
+    Home Page
+    =================================================================================
+    */
+
+    .home-text {
+        font-size: 40px;
+    }
+    .home-text-top {
+        margin-left: 0;
+    }
+
+
+    /* 
+    =================================================================================
+    About Us Page
+    =================================================================================
+    */
+    .container-fluid-recipes {
+        display: flex;
+        flex-direction: column-reverse; /* Reverse the order of columns */
+    }
+
+    /* Style for the image */
+    .paragraph2{
+        order: 1;
+        margin-top: 20px; 
+    }
+
+    /* Style for the paragraph */
+    .aboutus-paragraph {
+        order: 0; /* Change the order of the paragraph to appear above the image */
+    }
+
+    .contact-us {
+        font-size: 100px;
+        padding-top: 8px;
+        padding-bottom: 50px;
+    }
+    
+
+    /* 
+    =================================================================================
+    Footer
+    =================================================================================
+    */
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-logo,
+    .footer-recipe-link,
+    .footer-recipe-link1 {
+        width: 100%;
+    }
+
+    .footer-logo {
+        padding-bottom: 2%;
+    }
+
+    .footer-links {
+        padding-bottom: 10%;
+    }
+
+    .footer-imge {
+        width: 50%;
+    }
+
+    .footer-links .recipe-list {
+        display: flex; 
+        justify-content: space-between;
+      }
+      
+    .footer-allrecipes,
+    .footer-nav {
+    width: 48%;
+    }
+
+    .footer-recipe-link {
+        font-weight: lighter;
+    }
+ }

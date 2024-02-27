@@ -1,0 +1,133 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+p {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.container-fluid-recipes {
+    padding: 3% 7%;
+}
+
+#inner-nav-container {
+    padding: 0 7%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: rgb(49, 73, 73);
+}
+
+
+/* Title */
+
+#title {
+    background-color: rgb(88, 143, 143);
+    color: white;
+    text-align: left;
+}
+
+.icon {
+    color: rgb(49, 73, 73);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0 20px;
+}
+
+.icon:hover {
+    color: white;
+}
+
+/* Brand Name */
+#brand-name {
+    font-family: 'Times New Roman', Times, serif, "Montserrat-Black";
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#brand-name span {
+    color: #0f1316;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.search-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .search-container input[type="text"] {
+    border: none;
+    width: 50%;
+    font-size: 15px;
+  }
+  
+  .search-container button[type="submit"] {
+    width: 20%;
+    background-color: rgb(49, 73, 73);
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #999;
+  }
+  
+  .search-container button[type="submit"] i {
+    color: #555;
+  }
+
+
+  .imge {
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+

@@ -42,6 +42,25 @@ Nagivation Bar
     font-family: "Montserrat-Light";
 }
 
+
+#searchIcon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/icons8-search-50.png'); 
+    background-size: cover;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    display: inline-block;
+  }
+  
+  #searchIcon:hover {
+    opacity: 0.8; /* Optional: Reduce opacity on hover for visual feedback */
+  }
+  
+
+
 .search-container {
     display: flex;
     margin-top: 10px;
@@ -68,7 +87,7 @@ Nagivation Bar
   
   .search-container button[type="submit"] i {
     color: #555;
-  }
+  } 
 
   #header-container {
     /* Your existing styles for the header container */

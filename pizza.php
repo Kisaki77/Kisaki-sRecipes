@@ -52,27 +52,29 @@
     <section id="cooking-instructions">
         <div class="container-fluid-recipes">
             <div class="row">
-                <div class="col-lg-6">
-                    <img class="imge" src="images/pizza1.jpg" alt="pizza1">
+                <div class="recipe-color row">
+                    <div class="col-lg-12">
+                        <img class="imge shifting zoomable-div-c" src="images/Lunch/lunch001.jpg" alt="pizza1">
+                    </div>
+
+                    <div class="col-lg-12 prep">
+                        <span>
+                            <i id="recipe-span" class="fa fa-clock"></i>
+                        </span>
+                        <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
+
+                        <span>
+                            <i id="recipe-span" class="fa fa-clock"></i>
+                        </span>
+                        <h3 id="intro-recipes">Cooking time: 45 mins</h3><br>
+
+                        <span>
+                            <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
+                        </span>
+                        <h3 id="intro-recipes">Servings: 6</h3>
+                    </div>
                 </div>
-
-                <div class="col-lg-6">
-                <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Cooking time: 45 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
-                  </span>
-                  <h3 id="intro-recipes">Servings: 6</h3>
-              </div>
-
+                
 
                 <div class="col-lg-12 ingredients-section">
                 <h1 class="actual-recipe-heading">Pizza Ingredients</h1>
@@ -138,10 +140,6 @@
                     9. Take it out, cut it and serve hot with a drink 😊😋😋 Enjoy with family and friends. 
 
                 </p>
-                </div>
-
-                <div class="col-lg-6">
-                  <img class="imge" src="images/pizza2.jpg" alt="pizza1">
                 </div>
             </div>
         </div>

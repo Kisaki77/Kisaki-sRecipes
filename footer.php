@@ -40,9 +40,14 @@
             </div>
         </section>
 
+        <section class="footer-copyright col-lg-3">
+            <img class="footer-imge" src="images/Breakfast/breakfast000.jpg" alt="">
+        </section>
+
+
         <section class="footer-links col-lg-4">
           <div class="recipe-list col-lg-6"> 
-            <div class="footer-allrecipes">
+            <div class="footer-allrecipes col-lg-6">
               <a class="footer-recipe-link1" href="breakfast.php">Breakfast</a>
               <a class="footer-recipe-link1" href="lunch.php">Lunch</a>
               <a class="footer-recipe-link1" href="dinner.php">Dinner</a>
@@ -51,7 +56,7 @@
               <a class="footer-recipe-link1" href="meat.php">Meat</a>
               <a class="footer-recipe-link1" href="quick&easy.php">Quick & Easy</a>
             </div>
-            <div class="footer-nav">
+            <div class="footer-nav col-lg-6">
               <a class="footer-recipe-link" href="index.php">Home</a>
               <a class="footer-recipe-link" href="aboutus.php">About Us</a>
               <a class="footer-recipe-link" href="contact.php">Contact</a>
@@ -60,9 +65,7 @@
           </div>
         </section>
 
-        <section class="footer-copyright col-lg-4">
-            <img class="footer-imge" src="images/breakfastwallpaper4.jpg" alt="">
-        </section>
+
 
         <!-- <p class="copyright">© Copyright 2023 Kisaki's Recipes</p> -->
     

@@ -8,6 +8,7 @@
   <link type="image/png" sizes="32x32" rel="icon" href="images/icons8-noodles-3d-fluency-32.png">
 
   <!-- Google fonts -->
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
@@ -20,6 +21,7 @@
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/5c32d52e92.js" crossorigin="anonymous"></script>
+
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -37,7 +39,8 @@
   <div id="root"></div>
 
   <!-- Header -->
-  <?php include('my-app/src/header.php'); ?>
+  <?php include('header.php'); ?>
+
 
 <main class="content home"> 
   <div id="search-filter-root"></div>
@@ -144,25 +147,53 @@
           <div class="new-dishes-text col-lg-12">
             <h2 class="dessert-text"> From Cooking To Baking <br> <br> Sweet Creations, Baked to Perfection: Indulge in the Artistry of Heavenly Treats!
             </h2>
+
           </div>
       
+          
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake000.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+              <div class="image-container">
+                  <a class="recipe-links" href="chocolatecake.php">
+                      <img class="imge" src="images/Bake/bake000.jpg" alt="">
+                  </a>
+                  <div class="heart-container">
+                      <!-- Add your heart icon here -->
+                      <i class="fas fa-heart" id="heartIcon"></i>
+                  </div>
+              </div>
+              <a class="recipe-links " href="chocolatecake.php">
+                  <h3 class="recipe-name-white">Chocolate Cake</h3>
+              </a>
+              <p class="more-p">Chocolate Cake with White Sweat Cream and Cherry On Top.</p>
+          </div>
+
+
+          <script>
+    // Add this JavaScript code to toggle the heart icon color
+    var heartIcon = document.getElementById('heartIcon');
+
+    heartIcon.addEventListener('click', function() {
+        if (heartIcon.classList.contains('clicked')) {
+            heartIcon.classList.remove('clicked');
+        } else {
+            heartIcon.classList.add('clicked');
+        }
+    });
+</script>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href="cupcake.php"><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
+            <a class="recipe-links" href="cupcake.php"><h3>Chocolate Cupcakes</h3></a>
+            <p class="more-p">Chocolate Cupcakes with Chocolate Cream.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="cookies.php"><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
+            <a class="recipe-links" href="cookies.php"><h3>Choc Chip Biscuit</h3></a>
+            <p class="more-p">Biscuit with Choc Chip.</p>
           </div>
 
-          <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
-          </div>
+          <a href="bake.php" class="btn recipe-button-b">Explore Recipes</a>
         </div>
       </div>
     </div>     
@@ -182,7 +213,7 @@
               <p>
               <span>Indulge in a culinary symphony of savory delights with our premium selection of meats. From succulent steaks to mouthwatering roasts, each bite is a journey into rich, savory perfection <br><br> Find out which meat you prefer.</span>
               </p><br><br>
-              <a href="recipes.php" class="btn recipe-button">Explore Recipes</a>
+              <a href="meat.php" class="btn recipe-button">Explore Recipes</a>
           </div>
 
   
@@ -191,7 +222,7 @@
           <div class="inner-div">
 
             <div class="green1"></div>
-            <img class="img-fluid rounded w-100 wow zoomIn green-image" data-wow-delay="0.1s" src="images/Dinner/dinner000.jpg" alt="">
+            <img class="img-fluid rounded w-100 wow zoomIn green-image" data-wow-delay="0.1s" src="images/Meat/meat006.jpg" alt="">
             <div class="green2"></div>
           </div>
         </div>
@@ -211,22 +242,23 @@
           </div>
       
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat000.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="steak1.php"><img class="imge" src="images/Meat/meat000.jpg" alt=""></a>
+            <a class="recipe-links " href="steak1.php"><h3 class="recipe-name-white">Grilled Steak</h3></a>
+            <p class="more-p">Medium Rare Grilled Streak.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat002.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="tilapiaFish.php"><img class="imge" src="images/Meat/meat012.jpg" alt=""></a>
+            <a class="recipe-links" href="tilapiaFish.php"><h3>Tilapia Fish</h3></a>
+            <p class="more-p">Grilled Tilapia Fish with Spices and Lemon.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat011.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="wors.php"><img class="imge" src="images/Meat/meat011.jpg" alt=""></a>
+            <a class="recipe-links" href="wors.php"><h3>Beef Wors</h3></a>
+            <p class="more-p">Smoked Beef Wors.</p>
           </div>
+          <a href="meat.php" class="btn recipe-button-b">Explore Recipes</a>
         </div>
       </div>
     </div>
@@ -245,40 +277,23 @@
           </div>
       
           <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert003.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="pudding.php"><img class="imge" src="images/Dessert/dessert003.jpg" alt=""></a>
+            <a class="recipe-links " href="pudding.php"><h3 class="recipe-name-white">Creamy Yorghut Pudding</h3></a>
+            <p class="more-p-b">Delicious Creamy Yorghut Pudding with Strawberry.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert005.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="pancake.php"><img class="imge" src="images/Dessert/dessert009.jpg" alt=""></a>
+            <a class="recipe-links" href="pancake.php"><h3>Pancakes</h3></a>
+            <p class="more-p-b">Heavy Cream Pancakes with Chocolate Sauce.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert008.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
+            <a class="recipe-links" href="icecup.php"><img class="imge" src="images/Dessert/dessert008.jpg" alt=""></a>
+            <a class="recipe-links" href="icecup.php"><h3>Yorghut and Icecream Cup</h3></a>
+            <p class="more-p-b">Smooth Yorghut and Icecream Cup.</p>
           </div>
-
-          <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert003.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
-          </div>
-
-          <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert005.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
-          </div>
-
-          <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href=""><img class="imge" src="images/Dessert/dessert008.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p-b">Easy to make delicious wors.</p>
-          </div>
+          <a href="dessert.php" class="btn recipe-button-b">Explore Recipes</a>
         </div>
       </div>
     </div>

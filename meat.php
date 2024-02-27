@@ -21,7 +21,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  
 </head>
 
 <body>
@@ -63,117 +63,65 @@
 
   <section class="white-section" id="features">
 
+  <section class="white-section" id="new-dishes">
     <div class="container-fluid">
-      <div class="row">
+      <div class="more">
+    
+        <div class="row">
+      
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href="tilapiaFish.php"><img class="imge" src="images/Meat/meat012.jpg" alt=""></a>
+            <a class="recipe-links" href="tilapiaFish.php"><h3>Tilapia Fish</h3></a>
+            <p class="more-p">Grilled Tilapia Fish with Spices and Lemon.</p>
+          </div>
 
-        <div class="message-recipe col-lg-12">
-          <h2>There is a lot to choose, from these breakfast recipes.
-          </h2>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince&pasta2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-          <p>Simple and easy meal to enjoy with friends and family.</p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-           
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-          <p>Amazing tasty meal for dinner. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/pizza1.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pizza.</h3></a>
-          <p>Easy, quick and delicious home made pizza. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat013.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Mince</h3></a>
+            <p class="more-p">Fresh Cooked Beef Mince.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href="wors.php"><img class="imge" src="images/Meat/meat011.jpg" alt=""></a>
+            <a class="recipe-links" href="wors.php"><h3>Beef Wors</h3></a>
+            <p class="more-p">Smoked Beef Wors.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </div>     
+
   </section>
 
 
 
-  <section class="white-section" id="features">
+  <section class="white-section" id="new-dishes">
+    <div class="container-fluid">
+      <div class="more">
+    
+        <div class="row">
+      
+        <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat017.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Beef Slices</h3></a>
+            <p class="more-p">Grilled Beef Slices.</p>
+          </div>
 
-<div class="container-fluid">
-  <div class="row">
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat018.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Chicken On A Stick</h3></a>
+            <p class="more-p">Grilled Chicken with Veggies On A Stick.</p>
+          </div>
 
-    <div class="message-recipe col-lg-12">
-      <h2>More breakfast recipes.
-      </h2>
-    </div>
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat014.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Sweat Chicken</h3></a>
+            <p class="more-p">Fried Chicken with Sweat Chilli.</p>
+          </div>
+        </div>
+      </div>
+    </div>     
 
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
 
 

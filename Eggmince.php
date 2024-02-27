@@ -53,7 +53,7 @@
         <div class="container-fluid-recipes">
             <div class="row">
                 <div class="col-lg-6">
-                    <img class="imge" src="images/mince2.jpg" alt="mince pasta">
+                    <img class="imge" src="images/Dinner/dinner003.jpg" alt="mince pasta">
                 </div>
 
                 <div class="col-lg-6">

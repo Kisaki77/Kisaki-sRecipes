@@ -38,7 +38,6 @@
     <div class="recipe-list">
       <a class="recipe-link" href="breakfast.php">Breakfast</a>
       <a class="recipe-link" href="dessert.php">Dessert</a>
-      <a class="recipe-link" href="diet.php">Diet</a>
       <a class="recipe-link" href="dinner.php">Dinner</a>
       <a class="recipe-link" href="lunch.php">Lunch</a>
       <a class="recipe-link" href="quick&easy.php">Quick & Easy</a>
@@ -49,62 +48,111 @@
 
   <!-- Features -->
 
-  <section class="white-section" id="features">
-
+  <section class="white-section" id="new-dishes">
     <div class="container-fluid">
-      <div class="row">
-
-        <div class="message-recipe col-lg-12">
-          <h2>These are the one of the food recipes that are very easy and quick to do! 
-            Very delicious dishes.
-          </h2>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince&pasta2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-          <p>Simple and easy meal to enjoy with friends and family.</p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-           
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-          <p>Amazing tasty meal for dinner. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/pizza1.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pizza.</h3></a>
-          <p>Easy, quick and delicious home made pizza. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-            <img class="imge" src="images/mince&pasta2.jpg" alt="">
-            <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-            <p>Simple and easy meal to enjoy with friends and family.</p>
-            <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-          </div>
+      <div class="more">
     
-          <div class="feature-box col-lg-4">
-            <img class="imge" src="images/mince2.jpg" alt="">
-            <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-            <p>Amazing tasty meal for dinner. </p>
-            <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
+        <div class="row">
+          
+      
+        <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Breakfast/breakfast003.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Southern Breakfast</h3></a>
+            <p class="more-p">Croissant with Egg and Bacon, served with Cappoccino.</p>
           </div>
-    
-          <div class="feature-box col-lg-4">
-            <img class="imge" src="images/pizza1.jpg" alt="">
-            <a class="feature-links" href=""><h3>Pizza.</h3></a>
-            <p>Easy, quick and delicious home made pizza. </p>
-            <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge"  src="images/Breakfast/breakfast004.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>French Breakfast</h3></a>
+            <p class="more-p">Fried Eggs, Bacon with Viennas, served with break and Croissant.</p>
           </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge"  src="images/Breakfast/breakfast005.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Easy Breakfast</h3></a>
+            <p class="more-p">Toasted Bread with Eggs and Bacon.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Lunch/lunch001.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Pizza</h3></a>
+            <p class="more-p">Delicious Easy Pizza with Olives and Pepper.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Lunch/lunch002.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Chicken Pie</h3></a>
+            <p class="more-p">Baked Chicken Pie.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Lunch/lunch003.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Chicken Spaghetti</h3></a>
+            <p class="more-p">Spaghetti with Chicken and Salads.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Dinner/dinner003.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Star Mince</h3></a>
+            <p class="more-p">Mince with Boiled Eggs.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Dinner/dinner004.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Home Pasta</h3></a>
+            <p class="more-p">Pasta with Grilled Hake and Green Salad.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Dinner/dinner005.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Common Dish</h3></a>
+            <p class="more-p">Pap with Wors and Beef, Served with Chakalaka.</p>
+          </div>
+
+          
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat012.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Tilapia Fish</h3></a>
+            <p class="more-p">Grilled Tilapia Fish with Spices and Lemon.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat013.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Mince</h3></a>
+            <p class="more-p">Fresh Cooked Beef Mince.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat011.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Beef Wors</h3></a>
+            <p class="more-p">Smoked Beef Wors.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat017.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Beef Slices</h3></a>
+            <p class="more-p">Grilled Beef Slices.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat018.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Chicken On A Stick</h3></a>
+            <p class="more-p">Grilled Chicken with Veggies On A Stick.</p>
+          </div>
+
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat014.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Sweat Chicken</h3></a>
+            <p class="more-p">Fried Chicken with Sweat Chilli.</p>
+          </div>
+
+
+        </div>
       </div>
-    </div>
+    </div>     
+
   </section>
+
 
 
 

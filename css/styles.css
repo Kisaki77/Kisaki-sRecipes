@@ -174,7 +174,19 @@ Home third Section
 #parent-b img:hover {
     transform: scale(1.1); /* Adjust the scale factor for zooming in */
 }
-  
+
+
+.green2c {
+    background-color: rgb(29, 63, 63);
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    top: 52%;
+    bottom: -1px;
+    right: -15px;
+    z-index: 30;
+
+}
 
 /*
 =================================================================================
@@ -275,6 +287,25 @@ Home seventh Section
     color: silver;
 }
 
+.recipe-button-b {
+    background-color: rgb(88, 143, 143);
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    display: block; /* Use block to center horizontally */
+    margin: 0 auto; /* Auto margin for centering horizontally */
+    width: auto;
+    height: auto;
+}
+
+
+
+.recipe-button-b:hover {
+    background-color: rgb(29, 63, 63);
+    color: silver;
+}
+
 
 
 /*
@@ -283,8 +314,32 @@ Recipes Link Section
 =================================================================================
 */
 
+.recipe-color {
+    background-color: rgb(29, 63, 63);
+    border-radius: 50px;
+    border: 2px solid white; /* Add a white border with a thickness of 2px */
+    padding: 20px; /* Add some padding for better visual appearance */
+}
+
+.zoomable-div-c {
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.zoomable-div-c:hover {
+    transform: scale(1.1);
+}
+
+
+.recipe-links {
+    text-decoration: none;
+    color:  silver;
+}
+
+
 #recipe-span {
-    color: rgb(29, 63, 63);
+    color: white;
     font-size: 30px;
     display: inline-block;
     margin-right: 10px;
@@ -292,7 +347,7 @@ Recipes Link Section
 
 #intro-recipes {
     font-family: "Montserrat-Bold";
-    color: rgb(29, 63, 63);
+    color: white;
     display: inline-block;
     margin-left: 20px;
     line-height: 3;
@@ -366,6 +421,20 @@ Recipes Link Section
     color: grey;
 }
 
+@media screen and (max-width: 1024px) {
+    .shifting {
+        display: block; /* Change to block for stacking on smaller screens */
+        text-align: center; /* Optional: Center the content */
+    }
+
+    .shifting .imge {
+        width: 100%; /* Make the image take full width on smaller screens */
+    }
+
+    .prep h3{
+        font-size: 1.5rem;
+    }
+}
 
 /*=================================================================================
 Title
@@ -503,7 +572,7 @@ Sections
     display: inline-block;
     margin-right: 20px;
 }
-
+ 
 .contact-us-icon a {
     color: white;
     display: inline;
@@ -530,7 +599,7 @@ Section's Wallpapers and images
 */
 
 .dinner {
-    background: url(../images/dinnerwallpaper1.jpg);
+    background: url(../images/Dinner/dinner001.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -558,7 +627,7 @@ Section's Wallpapers and images
 }
 
 .lunch {
-    background: url(../images/lunchwallpaper.jpg);
+    background: url(../images/Lunch/lunch000.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -567,7 +636,7 @@ Section's Wallpapers and images
 }
 
 .dessert {
-    background: url(../images/dessertwallpaper1.jpg);
+    background: url(../images/Dessert/dessert006.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -576,7 +645,7 @@ Section's Wallpapers and images
 }
 
 .healthy {
-    background: url(../images/healthywallpaper.jpg);
+    background: url(../images/Healthy/healthy000.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -585,7 +654,7 @@ Section's Wallpapers and images
 }
 
 .quick-easy {
-    background: url(../images/easywallpaper.jpg);
+    background: url(../images/Quick&Easy/quick000.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -594,7 +663,7 @@ Section's Wallpapers and images
 }
 
 .chicken {
-    background: url(../images/chickenwallpaper.jpg);
+    background: url(../images/Meat/meat004.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -603,7 +672,7 @@ Section's Wallpapers and images
 }
 
 .beef {
-    background: url(../images/t-bone.jpg);
+    background: url(../images/Meat/meat006.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -612,7 +681,7 @@ Section's Wallpapers and images
 }
 
 .pork {
-    background: url(../images/porkwallpaper.jpg);
+    background: url(../images/Meat/meat003.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -621,7 +690,7 @@ Section's Wallpapers and images
 }
 
 .fish {
-    background: url(../images/fishwallpaper.jpg);
+    background: url(../images/Meat/meat001.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -630,7 +699,7 @@ Section's Wallpapers and images
 }
 
 .lamp {
-    background: url(../images/lampwallpaper.jpg);
+    background: url(../images/Meat/meat008.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -654,6 +723,15 @@ Section's Wallpapers and images
     width: 100%;
     height: 100%;
     object-fit: cover
+}
+
+.bake {
+    background: url(../images/Bake/bake003.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*
@@ -818,6 +896,47 @@ Recipe
 }
 
 
+/* Add this CSS to style the clicked state */
+.more-box {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.heart-container {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    color: #ccc; /* Default color */
+    font-size: 24px; /* Adjust font size as needed */
+    z-index: 2; /* Ensure the heart icon is above the image */
+}
+
+.imge {
+    width: 100%; /* Make sure the image takes the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    z-index: 1; /* Ensure the image is behind the heart icon */
+}
+
+#heartIcon.clicked {
+    color: red; /* Color when the heart is clicked */
+}
+
+
+
+
+
+
+/*
+=================================================================================
+About Us
+=================================================================================
+*/
+
+
 .aboutus-image {
     width: 100%;
     height: 100%;
@@ -834,6 +953,34 @@ Recipe
 }
 
 
+.contact-form input,
+.contact-form textarea {
+    background-color: rgb(29, 63, 63); /* Set your desired background color */
+    color: #fff; /* Set text color to white or another contrasting color */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add grey border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    margin-bottom: 10px; /* Add spacing between input fields */
+    width: 100%; /* Make the input fields fill the width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#btn {
+    background-color: rgb(29, 63, 63); /* Set your desired background color */
+    color: #fff; /* Set text color to white or another contrasting color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add grey border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+#btn:hover {
+    background-color: rgb(88, 143, 143); /* Change color on hover if desired */
+}
+
+
+
+
 /*
 =================================================================================
 Footer
@@ -848,7 +995,7 @@ Footer
     padding: 3% 7%;
     display: flex;
     justify-content: space-between; /* Adjust as needed */
-    align-items: center
+    align-items: center;
 }
 
 
@@ -928,18 +1075,21 @@ margin-right: 50px; /* Add space below .footer-allrecipes */
     text-decoration: none;
 }
 
+
 .footer-recipe-link1 {
     font-weight: bold;
     }
 
 .footer-recipe-link:hover {
     color: grey;
-    border-bottom: 1px solid grey; 
+    border-bottom: 1px solid grey;
+    display: inline-block; 
 }
 
 .footer-recipe-link1:hover {
     color: grey;
-    border-bottom: 1px solid grey; 
+    border-bottom: 1px solid grey;
+    display: inline-block; 
 }
 
 .footer-links .recipe-list {

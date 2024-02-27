@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 
@@ -143,47 +144,49 @@
         </div>
 
         <div class="col-lg-6 contact-details">
-            <p class="details-heading"> Find Our Contacts below! </p>
+            <p class="details-heading">Thank you for taking the time to visit my website. I'm eager to hear from you! </p>
             <hr>
-            <p class="details">
-            <b>Phone:</b> (+27)71 163 6031 <br><br><br>
-            <b>Email:</b> nobuhlemlahleki@gmail.com
-            <br>
+
+              <form class="contact-form" id="contactForm" method="post" action="sendEmail.php">
+                <fieldset>
+                      <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+
+	      			        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+
+	     				        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+
+	                 	  <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+
+                      <span id="success"></span>
+                      <button id="btn">Submit</button> <br><br>
+
+                      
+                </fieldset>
+              </form>
+              <!-- Display success message -->
+            <?php
+            
+
+            // Check if the success session variable is set
+            if (isset($_SESSION['success'])) {?>
+             <?php
+                echo '<div class="alert alert-success">Email sent successfully!</div>';
+
+                // Reset the success session variable
+                unset($_SESSION['success']);
+            }else{
+
+            }
+            ?>
+
+            <hr>
             <div class="contact-us-icon">
-              <a href="https://www.facebook.com/nobuhle.mlahleki"><i class="mobile-icon fa-brands fa-square-facebook fa-1x"></i></a>
-              <a href="mailto:nobuhlemlahleki@gmail.com"><i class="mobile-icon fa-solid fa-envelope fa-1x"></i></a>
-              <a href="https://www.instagram.com/nobuhlmlahleki/"><i class="mobile-icon fa-brands fa-instagram fa-1x"></i></a>
-              <a href="https://web.whatsapp.com/"><i class="mobile-icon fa-brands fa-whatsapp fa-1x"></i></a>
+              <a href="https://www.facebook.com/nobuhle.mlahleki"><i class="mobile-icon icon fa-brands fa-square-facebook fa-1x"></i></a>
+              <a href="mailto:nobuhlemlahleki@gmail.com"><i class="mobile-icon fa-solid icon fa-envelope fa-1x"></i></a>
+              <a href="https://www.instagram.com/nobuhlmlahleki/"><i class="mobile-icon icon fa-brands fa-instagram fa-1x"></i></a>
+              <a href="https://web.whatsapp.com/"><i class="mobile-icon icon fa-brands fa-whatsapp fa-1x"></i></a>
             </div>
             </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-      <div class="row">
-
-      <div class="recipe-pictures col-lg-6" id="parent-b">
-            <div class="green1b"></div>
-            <img class="img-fluid rounded w-100 wow zoomIn green-image" data-wow-delay="0.1s" src="images/Lunch/lunch001.jpg" alt="">
-            <div class="green2b"></div>
-
-        </div>
-
-        <div class="message-recipe col-lg-6 scroll-reveal2" >
-            <h2>
-              <span>Our mission and vision</span>
-            </h2>
-            <p>
-            <span>
-                Our mission is simple: to inspire people to cook more at home by providing them with delicious and healthy meal ideas that are both affordable and simple to make. <br><br>
-                Our vision is to be the go-to website for anyone who wants to cook delicious meals at home using fresh, seasonal ingredients. <br><br>
-                Whether you're a seasoned cook or a beginner, Kisaki's Recipes is here to help you up your cooking game and impress your family and friends with your amazing culinary creations.
-                </span>
-            </p>
-        </div>
       </div>
     </div>
   </section>
@@ -198,5 +201,7 @@
   <?php include('footer.php'); ?>
   <script src="script.js"></script>
 </body>
+
+
 
 </html>

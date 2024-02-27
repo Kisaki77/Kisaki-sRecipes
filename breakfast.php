@@ -47,7 +47,7 @@
   <section class="colored-section" id="recipes">
 
     <h2 class="recipe">Breakfast Recipes!</h2>
-    <h5 class="recipe-short-message">Here are some breakfast rcipes to try out tonight</h5>
+    <h5 class="recipe-short-message">Awaken your senses with the enticing aroma of a freshly brewed cup of coffee and the delightful sizzle of breakfast delights, as you embark on a morning journey that promises the perfect start to a day filled with flavor and vitality</h5>
   
   </section>
 
@@ -60,71 +60,25 @@
     
         <div class="row">
           <div class="new-dishes-text col-lg-12">
-            <h2 class="dessert-text"> From Cooking To Baking <br> <br> Sweet Creations, Baked to Perfection: Indulge in the Artistry of Heavenly Treats!
-            </h2>
+            
           </div>
       
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake000.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href=""><img class="imge" src="images/Breakfast/breakfast003.jpg" alt=""></a>
+            <a class="recipe-links " href=""><h3 class="recipe-name-white">Southern Breakfast</h3></a>
+            <p class="more-p">Croissant with Egg and Bacon, served with Cappoccino.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href=""><img class="imge"  src="images/Breakfast/breakfast004.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>French Breakfast</h3></a>
+            <p class="more-p">Fried Eggs, Bacon with Viennas, served with break and Croissant.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
-          </div>
-        </div>
-      </div>
-    </div>     
-
-  </section>
-
-
-<section class="wall-text">
-  <div class="container-fluid">
-      <div class="row">
-
-        <div class="message-recipe col-lg-12">
-        
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="white-section" id="new-dishes">
-    <div class="container-fluid">
-      <div class="more">
-    
-        <div class="row">
-          <div class="new-dishes-text col-lg-12">
-            <h2 class="dessert-text"> From Cooking To Baking <br> <br> Sweet Creations, Baked to Perfection: Indulge in the Artistry of Heavenly Treats!
-            </h2>
-          </div>
-      
-          <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake000.jpg" alt=""></a>
-            <a class="recipe-links " href=""><h3 class="recipe-name-white">Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
-          </div>
-
-          <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
-          </div>
-
-          <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href=""><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
-            <a class="recipe-links" href=""><h3>Fish</h3></a>
-            <p class="more-p">Easy to make delicious wors.</p>
+            <a class="recipe-links" href=""><img class="imge"  src="images/Breakfast/breakfast005.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Easy Breakfast</h3></a>
+            <p class="more-p">Toasted Bread with Eggs and Bacon.</p>
           </div>
         </div>
       </div>

@@ -58,121 +58,33 @@
     </div>
   </section>
 
-
   <!-- Features -->
 
   <section class="white-section" id="features">
 
-    <div class="container-fluid">
+<section class="white-section" id="new-dishes">
+  <div class="container-fluid">
+    <div class="more">
+  
       <div class="row">
+    
+         <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat012.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Tilapia Fish</h3></a>
+            <p class="more-p">Grilled Tilapia Fish with Spices and Lemon.</p>
+          </div>
 
-        <div class="message-recipe col-lg-12">
-          <h2>There is a lot to choose, from these breakfast recipes.
-          </h2>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince&pasta2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-          <p>Simple and easy meal to enjoy with friends and family.</p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-           
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/mince2.jpg" alt="">
-          <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-          <p>Amazing tasty meal for dinner. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-        </div>
-  
-        <div class="feature-box col-lg-4">
-          <img class="imge" src="images/pizza1.jpg" alt="">
-          <a class="feature-links" href=""><h3>Pizza.</h3></a>
-          <p>Easy, quick and delicious home made pizza. </p>
-          <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-        </div>
+          <div class="more-box col-lg-4 zoomable-div">
+            <a class="recipe-links" href=""><img class="imge" src="images/Meat/meat002.jpg" alt=""></a>
+            <a class="recipe-links" href=""><h3>Ruhi Fish</h3></a>
+            <p class="more-p">Fried Ruhi Fish with Potato Salad.</p>
+          </div>
+
+
       </div>
     </div>
-  </section>
+  </div>     
 
-
-
-  <section class="white-section" id="features">
-
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="message-recipe col-lg-12">
-      <h2>More breakfast recipes.
-      </h2>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince&pasta2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pasta & Mince.</h3></a>
-      <p>Simple and easy meal to enjoy with friends and family.</p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-       
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/mince2.jpg" alt="">
-      <a class="feature-links" href=""><h3>Mince & Eggs.</h3></a>
-      <p>Amazing tasty meal for dinner. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <img class="imge" src="images/pizza1.jpg" alt="">
-      <a class="feature-links" href=""><h3>Pizza.</h3></a>
-      <p>Easy, quick and delicious home made pizza. </p>
-      <p><i class="icon-recipe fa-solid fa-clock fa-1x"></i>  3 mins</p>
-    </div>
-  </div>
-</div>
 </section>
 
 

@@ -52,26 +52,28 @@
     <section id="cooking-instructions">
         <div class="container-fluid-recipes">
             <div class="row">
-                <div class="col-lg-6">
-                    <img class="imge" src="images/pasta&mince.jpg" alt="mince pasta">
+            <div class="recipe-color row">
+                    <div class="col-lg-12">
+                        <img class="imge shifting zoomable-div-c" src="images/Dinner/dinner007.jpg" alt="pizza1">
+                    </div>
+
+                    <div class="col-lg-12 prep">
+                        <span>
+                            <i id="recipe-span" class="fa fa-clock"></i>
+                        </span>
+                        <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
+
+                        <span>
+                            <i id="recipe-span" class="fa fa-clock"></i>
+                        </span>
+                        <h3 id="intro-recipes">Cooking time: 45 mins</h3><br>
+
+                        <span>
+                            <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
+                        </span>
+                        <h3 id="intro-recipes">Servings: 6</h3>
+                    </div>
                 </div>
-
-                <div class="col-lg-6"  id="recipe-top-div">
-                  <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Prep time: 10 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa fa-clock"></i>
-                  </span>
-                  <h3 id="intro-recipes">Cooking time: 30 mins</h3><br>
-
-                  <span>
-                      <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
-                  </span>
-                  <h3 id="intro-recipes">Servings: 6</h3>
-              </div>
 
 
                 <div class="col-lg-12 ingredients-section">
@@ -123,10 +125,6 @@
                         5. When cooked and ready take the pasta and mix it with the mince. <br><br>
                         6. Take it out and serve hot with a drink 😊😋😋 Enjoy with family and friends.
                     </p>
-                </div>
-
-                <div class="col-lg-6">
-                    <img class="imge" src="images/mince&pasta2.jpg" alt="">
                 </div>
             </div>
         </div>

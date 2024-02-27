@@ -33,9 +33,6 @@
 
 <body>
 
-  <!-- Render the React app inside this div -->
-  <div id="root"></div>
-
   <section id="title">
 
   <div  id="header-container">
@@ -62,6 +59,7 @@
                     <a class="dropdown-item" href="dessert.php">Dessert</a>
                     <a class="dropdown-item" href="healthy.php">Healthy</a>
                     <a class="dropdown-item" href="quick&easy.php">Quick & Easy</a>
+                    <a class="dropdown-item" href="bake.php">Bakery</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -71,39 +69,7 @@
                   <a class="nav-link" href="aboutus.php">About Us</a>
               </li>
               <li class="nav-item">
-                <div class="searchbar">
-                  <form class="search-container search-box form-inline">
-                    <input type="text" placeholder="Search..." class="search" id="searchBar" name="searchBar">
-                    
-                  </form>
-                  <!-- Placeholder div for the React search filter component -->
-                  <div id="search-filter-root"></div>
-
-                      <script>
-                      // Function to asynchronously load the React app
-                      function loadReactApp() {
-                        // ... (previous code to load the React app)
-
-                        // Real-time search function
-                        const searchInput = document.getElementById("searchBar");
-                        searchInput.addEventListener("input", function () {
-                          const searchTerm = searchInput.value.toLowerCase();
-                          const recipeBoxes = document.querySelectorAll(".template");
-                          recipeBoxes.forEach(function (box) {
-                            const recipeTitle = box.querySelector("h3").textContent.toLowerCase();
-                            if (recipeTitle.includes(searchTerm)) {
-                              box.style.display = "block";
-                            } else {
-                              box.style.display = "none";
-                            }
-                          });
-                        });
-                      }
-
-                      // Load the React app when the document is ready
-                      document.addEventListener("DOMContentLoaded", loadReactApp);
-                    </script>
-                </div>
+                <a href="searching.php"><div id="searchIcon" class="search-icon"></div></a>
               </li>
             </ul>
           </div>
@@ -115,9 +81,7 @@
   <div class="page-container">
     <div class="mobile-nav">
       <ul class="sidebar-menu">
-        <form class="mobile-search-container search-box form-inline">
-          <input type="text" placeholder="What are you looking for?" class="search mobile-nav-search" id="searchBar" name="searchBar">
-        </form>
+      <a href="searching.php"><div id="searchIcon" class="search-icon"></div></a>
         <li><a class="mobile-nav-link" href="breakfast.php">Breakfast</a></li>
         <li><a class="mobile-nav-link" href="lunch.php">Lunch</a></li>
         <li><a class="mobile-nav-link" href="dinner.php">Dinner</a></li>

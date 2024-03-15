@@ -14,8 +14,8 @@ This project is a food recipes website that can be ran using using XAMPP. It all
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Backend:** PHP, JavaScript
 - **Server:** XAMPP
 
 ## Setup Instructions
@@ -23,4 +23,4 @@ This project is a food recipes website that can be ran using using XAMPP. It all
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Kisaki77/Kisaki-FoodRecipes.git
+   git clone https://github.com/Kisaki77/Kisaki-sRecipes.git

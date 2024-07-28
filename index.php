@@ -118,7 +118,7 @@
 
       <div class="recipe-pictures col-lg-6" id="parent-b">
             <div class="green1b"></div>
-            <img class="img-fluid rounded w-100 wow zoomIn green-image" data-wow-delay="0.1s" src="images/Dessert/dessert002.jpg" alt="">
+            <img class="img-fluid rounded w-100 wow zoomIn green-image" data-wow-delay="0.1s" src="images/Dessert/dessert002.jpeg" alt="">
             <div class="green2b"></div>
     
         </div>
@@ -167,28 +167,31 @@
               <p class="more-p">Chocolate Cake with White Sweat Cream and Cherry On Top.</p>
           </div>
 
-
           <script>
-    // Add this JavaScript code to toggle the heart icon color
-    var heartIcon = document.getElementById('heartIcon');
+            // Add this JavaScript code to toggle the heart icon color
+            var heartIcon = document.getElementById('heartIcon');
 
-    heartIcon.addEventListener('click', function() {
-        if (heartIcon.classList.contains('clicked')) {
-            heartIcon.classList.remove('clicked');
-        } else {
-            heartIcon.classList.add('clicked');
-        }
-    });
-</script>
+            heartIcon.addEventListener('click', function() {
+                if (heartIcon.classList.contains('clicked')) {
+                    heartIcon.classList.remove('clicked');
+                } else {
+                    heartIcon.classList.add('clicked');
+                }
+            });
+        </script>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href="cupcake.php"><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
+            <div class="image-container">
+              <a class="recipe-links" href="cupcake.php"><img class="imge" src="images/Bake/bake001.jpg" alt=""></a>
+              </div>
             <a class="recipe-links" href="cupcake.php"><h3>Chocolate Cupcakes</h3></a>
             <p class="more-p">Chocolate Cupcakes with Chocolate Cream.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div">
-            <a class="recipe-links" href="cookies.php"><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
+              <div class="image-container">
+                <a class="recipe-links" href="cookies.php"><img class="imge" src="images/Bake/bake002.jpg" alt=""></a>
+              </div>
             <a class="recipe-links" href="cookies.php"><h3>Choc Chip Biscuit</h3></a>
             <p class="more-p">Biscuit with Choc Chip.</p>
           </div>
@@ -277,15 +280,15 @@
           </div>
       
           <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href="pudding.php"><img class="imge" src="images/Dessert/dessert003.jpg" alt=""></a>
+            <a class="recipe-links" href="pudding.php"><img class="imge" src="images/Dessert/dessert004.jpg" alt=""></a>
             <a class="recipe-links " href="pudding.php"><h3 class="recipe-name-white">Creamy Yorghut Pudding</h3></a>
             <p class="more-p-b">Delicious Creamy Yorghut Pudding with Strawberry.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div-b">
-            <a class="recipe-links" href="pancake.php"><img class="imge" src="images/Dessert/dessert009.jpg" alt=""></a>
+            <a class="recipe-links" href="pancake.php"><img class="imge" src="images/Dessert/dessert002.jpeg" alt=""></a>
             <a class="recipe-links" href="pancake.php"><h3>Pancakes</h3></a>
-            <p class="more-p-b">Heavy Cream Pancakes with Chocolate Sauce.</p>
+            <p class="more-p-b">Heavy Cream Pancakes with Chocolate Sauce and Syrup.</p>
           </div>
 
           <div class="more-box col-lg-4 zoomable-div-b">

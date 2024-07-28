@@ -135,16 +135,24 @@
 </div>
 </div>
 
-  <section class="colored-section about" id="recipes" style="color: white;">
+  <section class="colored-section about" style="color: white;">
     <div class="container-fluid-recipes">
       <div class="row">
 
-        <div class="col-lg-6">
-        <h2 class="contact-us">Contact Us!</h2>
+        <div class="col-lg-12">
+          <h2 class="contact-us">Contact Us!</h2><br>
+          <p>Feel free to contact us anytime at <a class="contactUs-link" href="mailto:nobuhlemlahleki@gmail.com">info@kisakisrecipes.com</a> or by filling out this form.</p>
+          <div class="contact-us-icon">
+              <a href="https://www.facebook.com/nobuhle.mlahleki"><i class="mobile-icon icon fa-brands fa-square-facebook fa-2x"></i></a>
+              <a href="mailto:nobuhlemlahleki@gmail.com"><i class="mobile-icon fa-solid icon fa-envelope fa-2x"></i></a>
+              <a href="https://www.instagram.com/nobuhlmlahleki/"><i class="mobile-icon icon fa-brands fa-instagram fa-2x"></i></a>
+              <a href="https://web.whatsapp.com/"><i class="mobile-icon icon fa-brands fa-whatsapp fa-2x"></i></a>
+            </div><br>
         </div>
+        
 
-        <div class="col-lg-6 contact-details">
-            <p class="details-heading">Thank you for taking the time to visit my website. I'm eager to hear from you! </p>
+        <div class="col-lg-6">
+            <p class="details-heading" style="font-size: 2.0rem;">Contact Us Now!</p>
             <hr>
 
               <form class="contact-form" id="contactForm" method="post" action="sendEmail.php">
@@ -180,14 +188,11 @@
             ?>
 
             <hr>
-            <div class="contact-us-icon">
-              <a href="https://www.facebook.com/nobuhle.mlahleki"><i class="mobile-icon icon fa-brands fa-square-facebook fa-1x"></i></a>
-              <a href="mailto:nobuhlemlahleki@gmail.com"><i class="mobile-icon fa-solid icon fa-envelope fa-1x"></i></a>
-              <a href="https://www.instagram.com/nobuhlmlahleki/"><i class="mobile-icon icon fa-brands fa-instagram fa-1x"></i></a>
-              <a href="https://web.whatsapp.com/"><i class="mobile-icon icon fa-brands fa-whatsapp fa-1x"></i></a>
-            </div>
             </p>
-      </div>
+        </div>
+      <div class="col-lg-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1493.5392091740268!2d28.286151796632996!3d-25.729719209898757!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1722172302980!5m2!1sen!2sza" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
   </section>
 

@@ -7,13 +7,15 @@ use PHPMailer\PHPMailer\Exception;
 
 // Your Gmail credentials
 
-require 'C:\xampp\htdocs\Projects\Kisaki-FoodRecipes-main\PHPMailer-master\src\Exception.php';
+require __DIR__ . '/PHPMailer-master/src/Exception.php';
 
 /* The main PHPMailer class. */
-require 'C:\xampp\htdocs\Projects\Kisaki-FoodRecipes-main\PHPMailer-master\src\PHPMailer.php';
+require __DIR__ . '/PHPMailer-master/src/PHPMailer.php';
 
 /* SMTP class, needed if you want to use SMTP. */
-require  'C:\xampp\htdocs\Projects\Kisaki-FoodRecipes-main\PHPMailer-master\src\SMTP.php';
+require __DIR__ . '/PHPMailer-master/src/SMTP.php';
+
+
 // Recipient email
 
 $email = $_POST['contactEmail'];
@@ -46,7 +48,7 @@ try {
     // Content
     $mail->isHTML(true);
     $mail->Subject = $subject;
-    $mail->Body    = "Name: $name<br><br>" . $message;
+    $mail->Body    = "Name: $name<br><br>" . "Message: <br>$message";
 
     // Send email
     if ($mail->send()) {

@@ -71,9 +71,27 @@
                         <span>
                             <i id="recipe-span" class="fa-solid fa-bowl-food"></i>
                         </span>
-                        <h3 id="intro-recipes">Servings: 6</h3>
+                        <h3 id="intro-recipes">Servings: 6</h3> <br>
+
+                        <span>
+                            <i id="recipe-span" class="fas fa-heart" id="heartIcon"></i>
+                        </span>
+                        <h3 id="intro-recipes">Save Recipe</h3>
+                        <script>
+                        // Add this JavaScript code to toggle the heart icon color
+                        var heartIcon = document.getElementById('heartIcon');
+
+                        heartIcon.addEventListener('click', function() {
+                            if (heartIcon.classList.contains('clicked')) {
+                                heartIcon.classList.remove('clicked');
+                            } else {
+                                heartIcon.classList.add('clicked');
+                            }
+                        });
+                    </script>
                     </div>
                 </div>
+                
                 
 
                 <div class="col-lg-12 ingredients-section">
@@ -147,6 +165,9 @@
 
     <!-- Footer -->
     <?php include('footer.php'); ?>
+
+      <!-- JavaScript -->
+  <script src="script.js"></script>
 
 </body>
 
